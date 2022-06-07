@@ -3,7 +3,7 @@
 */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
-h1{font-size: 25px;}h2{font-size: 21px;}h3{font-size: 18px;}h4{font-size: 16px;}
+h1{font-size: 14px;}h2{font-size: 12px;}h3{font-size: 10px;}h4{font-size: 9px;}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 nav ul{list-style:none}
 blockquote,q{quotes:none}
@@ -22,7 +22,7 @@ input,select{vertical-align:middle}
 .grid-item { width: 200px; }
 .grid-item-double { width: 400px; }
 .grid {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 20px auto;
     border: 1px solid #999;
 }
@@ -30,7 +30,7 @@ input,select{vertical-align:middle}
     min-height: 100px;
     text-align: center;
     background-color: #ddd;
-    font-size: 22px;
+    font-size: 12px;
     padding-top: 40px;
     color: #555;
     font-weight: bold;
