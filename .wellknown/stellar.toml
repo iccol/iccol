@@ -1,1 +1,30 @@
-
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015" 
+FEDERATION_SERVER="https://api.domain.com/federation" 
+AUTH_SERVER="https://api.domain.com/auth" 
+TRANSFER_SERVER="https://api.domain.com"
+HORIZON_URL="https://horizon.domain.com"
+ACCOUNTS=["GCSWCYPCTU2GVWX2QOE5E5SZQ5PUHEZV5FAXKHXEXZATPWGXHAY5TN73"]
+VERSION="2.0.0"
+[DOCUMENTATION]
+ORG_NAME="Organization Name"
+ORG_DBA="Organization DBA"
+ORG_URL="https://www.domain.com" ORG_LOGO="https://www.domain.com/awesomelogo.png"
+ORG_DESCRIPTION="Description of issuer"
+ORG_PHYSICAL_ADDRESS="Los Angeles, CA 90067, United States" 
+ORG_PHYSICAL_ADDRESS_ATTESTATION="https://www.domain.com/address_attestation.jpg"
+ORG_PHONE_NUMBER="1 (123)-456-7890" 
+ORG_PHONE_NUMBER_ATTESTATION="https://www.domain.com/phone_attestation.jpg" 
+ORG_KEYBASE="accountname"
+ORG_TWITTER="orgtweet"
+ORG_GITHUB="orgcode"
+ORG_OFFICIAL_EMAIL="Coming soon"
+[[PRINCIPALS]] name="coming soon" email="coming soon" 
+keybase="coming soon" github="iccol"
+[[CURRENCIES]]
+code="STEP" 
+issuer="GA3FCWUIO7GWZI5Q66PKQUEX4VLAR3G7GT3CSRGBETE3M7JGMA633ORZ" 
+display_decimals=4
+name="STEP Travel Token"
+desc="STEP"
+conditions="Issuer reserves the right to mint additional tokens." 
+fixed_number=false
