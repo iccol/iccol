@@ -1,30 +1,43 @@
-NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015" 
-FEDERATION_SERVER="https://api.domain.com/federation" 
-AUTH_SERVER="https://api.domain.com/auth" 
-TRANSFER_SERVER="https://api.domain.com"
-HORIZON_URL="https://horizon.domain.com"
-ACCOUNTS=["GCSWCYPCTU2GVWX2QOE5E5SZQ5PUHEZV5FAXKHXEXZATPWGXHAY5TN73"]
 VERSION="2.0.0"
+
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+FEDERATION_SERVER="https://api.domain.com/federation"
+TRANSFER_SERVER="https://api.domain.com"
+SIGNING_KEY="GCFLUK4UK77337BRT6UGWP5UHYB73PSQ4HRACL6HJOQWH4GAKL4UX3RB"
+HORIZON_URL="https://horizon.domain.com"
+ACCOUNTS=[
+"GCFLUK4UK77337BRT6UGWP5UHYB73PSQ4HRACL6HJOQWH4GAKL4UX3RB"]
+
 [DOCUMENTATION]
 ORG_NAME="Organization Name"
 ORG_DBA="Organization DBA"
-ORG_URL="https://www.domain.com" ORG_LOGO="https://www.domain.com/awesomelogo.png"
+ORG_URL="https://www.domain.com"
+ORG_LOGO="https://www.domain.com/awesomelogo.png"
 ORG_DESCRIPTION="Description of issuer"
-ORG_PHYSICAL_ADDRESS="Los Angeles, CA 90067, United States" 
+ORG_PHYSICAL_ADDRESS="123 Sesame Street, New York, NY 12345, United States"
 ORG_PHYSICAL_ADDRESS_ATTESTATION="https://www.domain.com/address_attestation.jpg"
-ORG_PHONE_NUMBER="1 (123)-456-7890" 
-ORG_PHONE_NUMBER_ATTESTATION="https://www.domain.com/phone_attestation.jpg" 
+ORG_PHONE_NUMBER="1 (123)-456-7890"
+ORG_PHONE_NUMBER_ATTESTATION="https://www.domain.com/phone_attestation.jpg"
 ORG_KEYBASE="accountname"
 ORG_TWITTER="orgtweet"
 ORG_GITHUB="orgcode"
-ORG_OFFICIAL_EMAIL="Coming soon"
-[[PRINCIPALS]] name="coming soon" email="coming soon" 
-keybase="coming soon" github="iccol"
+ORG_OFFICIAL_EMAIL="support@domain.com"
+
+[[PRINCIPALS]]
+name="Private Company"
+email="amphora-polymer.0o@icloud.com"
+keybase=""
+twitter=""
+github=""
+id_photo_hash=""
+verification_photo_hash=""
+
 [[CURRENCIES]]
-code="STEP" 
-issuer="GA3FCWUIO7GWZI5Q66PKQUEX4VLAR3G7GT3CSRGBETE3M7JGMA633ORZ" 
+code="AUTON"
+issuer="GCFLUK4UK77337BRT6UGWP5UHYB73PSQ4HRACL6HJOQWH4GAKL4UX3RB"
 display_decimals=4
-name="STEP Travel Token"
-desc="STEP"
-conditions="Issuer reserves the right to mint additional tokens." 
+name="Autonomous"
+desc="Fungible utility token"
+conditions="Active burn policy. Issuer may mint additional tokens"
+image=""
 fixed_number=false
