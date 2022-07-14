@@ -1,1 +1,77 @@
+VERSION="2.0.0"
 
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+FEDERATION_SERVER="https://api.domain.com/federation"
+
+TRANSFER_SERVER="https://api.domain.com"
+
+SIGNING_KEY="GCFLUK4UK77337BRT6UGWP5UHYB73PSQ4HRACL6HJOQWH4GAKL4UX3RB"
+
+HORIZON_URL="https://horizon.domain.com"
+
+ACCOUNTS=[
+
+"GCFLUK4UK77337BRT6UGWP5UHYB73PSQ4HRACL6HJOQWH4GAKL4UX3RB"]
+
+[DOCUMENTATION]
+
+ORG_NAME="ICCOL"
+
+
+
+ORG_URL="https://www.iccol.co"
+
+ORG_LOGO=""
+
+ORG_DESCRIPTION="Info site"
+
+ORG_PHYSICAL_ADDRESS="2029 Century Park E., Los Angeles, CA 90067, United States"
+
+ORG_PHYSICAL_ADDRESS_ATTESTATION="https://www.domain.com/address_attestation.jpg"
+
+ORG_PHONE_NUMBER="1 (123)-456-7890"
+
+ORG_PHONE_NUMBER_ATTESTATION="https://www.domain.com/phone_attestation.jpg"
+
+ORG_KEYBASE=""
+
+ORG_TWITTER=""
+
+ORG_GITHUB=""
+
+ORG_OFFICIAL_EMAIL=""
+
+[[PRINCIPALS]]
+
+name="Private Company"
+
+email="amphora-polymer.0o@icloud.com"
+
+keybase=""
+
+twitter=""
+
+github=""
+
+id_photo_hash=""
+
+verification_photo_hash=""
+
+[[CURRENCIES]]
+
+code="AUTON"
+
+issuer="GCFLUK4UK77337BRT6UGWP5UHYB73PSQ4HRACL6HJOQWH4GAKL4UX3RB"
+
+display_decimals=4
+
+name="Autonomous"
+
+desc="Fungible utility token"
+
+conditions="Active burn policy. Issuer may mint additional tokens"
+
+image=""
+
+fixed_number=false
