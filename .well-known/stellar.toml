@@ -49,7 +49,9 @@ issuer="GAKH6DXMK45TF7C6ZDJAFHARVRLW4GJIQHC64GX24IUBL4UJ3J7EFDRK"
 display_decimals=4
 name="Metaverse Studios"
 desc="Fungible cryptocurrency"
-conditions=""
+conditions="Verified Mint. Active burn policy. Issuer may mint additional tokens."
+
+
 image=""
 fixed_number=""
 
